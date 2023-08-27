@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "LookupApp",
+    "version": "1.0.0",
+    "description": "An app for performing various types of lookups.",
+    "author": "Your Name",
+    "contact": "contact@example.com",
+    "homepage": "https://www.example.com/lookupapp",
+    "lookups": [
+      {
+        "name": "Dictionary Lookup",
+        "description": "Lookup definitions of words in a dictionary.",
+        "endpoint": "https://api.example.com/dictionary",
+        "parameters": [
+          {
+            "name": "word",
+            "type": "string",
+            "description": "The word to look up."
+          }
+        ]
+      },
+      {
+        "name": "Weather Lookup",
+        "description": "Lookup current weather conditions for a specific location.",
+        "endpoint": "https://api.example.com/weather",
+        "parameters": [
+          {
+            "name": "location",
+            "type": "string",
+            "description": "The location to get weather for."
+          }
+        ]
+      },
+      {
+        "name": "Stock Price Lookup",
+        "description": "Lookup the current stock price for a specific company.",
+        "endpoint": "https://api.example.com/stock",
+        "parameters": [
+          {
+            "name": "company",
+            "type": "string",
+            "description": "The name or symbol of the company."
+          }
+        ]
+      }
+    ]
+  }
+}
